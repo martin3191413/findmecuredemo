@@ -1,0 +1,101 @@
+.mainContent{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.mainContentLeftBigHeader{
+    margin-bottom: 25px;
+}
+
+.mainContentLeftBigHeaderText{
+    font-size: 50px;
+    font-weight: 900;
+    color: #fff;
+}
+
+.mainContentLeftSecondHeader{
+    margin-bottom: 45px;
+}
+
+.mainContentLeftSecondHeaderText{
+    font-size: 32px;
+    color: #fff;
+    font-weight: 400;
+
+}
+
+.mainContentInputContainer{
+    display: flex;
+    height: 50px;
+    margin-bottom: 60px;
+}
+
+.emailInput{
+    outline: none;
+    border: 2px solid #ff862f;
+    border-right: none;
+    width: 250px;
+    border-radius: 8px 0 0 8px;
+    font-size: 16px;
+    padding-left: 12px;
+    background-color: #fff;
+}
+
+.emailInputBtn{
+    width: 221px;
+    border-radius: 0 6px 6px 0;
+    background-color: #ff862f;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+}
+
+.emailInputBtn:hover{
+    background-color:#69a6ee;
+}
+
+.mainContentRightImg{
+    height: 460px;
+    width: 540px;
+}
+
+.mainContentQuoteContainer{
+    color: #fff;
+    border-radius: 8px;
+    border: 3px solid #69a6ee;
+    padding: 30px;
+    background-color: #1d8fbc;
+    width: 420px;
+}
+
+.mainContentQuoteIcon{
+    width: fit-content;
+    background-color: #1d8fbc;
+}
+
+.quote-icon{
+    background-color: #1d8fbc;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.mainContentQuoteText{
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 200;
+    background-color: #1d8fbc;
+    line-height: 1.9rem;
+}
+
+.quoteTextContainer{
+    background-color: #1d8fbc;
+}
+
+.quoteTextBold{
+    background-color: #1d8fbc;
+    font-weight: 400;
+}
